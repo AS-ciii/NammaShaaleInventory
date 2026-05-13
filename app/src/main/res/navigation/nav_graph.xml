@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.nammashaaleinventory.ui.dashboard.DashboardFragment"
+        android:label="Dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_report"
+            app:destination="@id/reportFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_health"
+            app:destination="@id/healthCheckFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_repair"
+            app:destination="@id/repairRequestFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_addAsset"
+            app:destination="@id/addEditAssetFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/assetListFragment"
+        android:name="com.nammashaaleinventory.ui.assets.AssetListFragment"
+        android:label="Asset Register" >
+        <action
+            android:id="@+id/action_assetList_to_addEdit"
+            app:destination="@id/addEditAssetFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEditAssetFragment"
+        android:name="com.nammashaaleinventory.ui.assets.AddEditAssetFragment"
+        android:label="Add / Edit Asset">
+        <argument
+            android:name="assetId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/healthCheckFragment"
+        android:name="com.nammashaaleinventory.ui.healthcheck.HealthCheckFragment"
+        android:label="Health Check" />
+
+    <fragment
+        android:id="@+id/issueLogFragment"
+        android:name="com.nammashaaleinventory.ui.issues.IssueLogFragment"
+        android:label="Issue Log" />
+
+    <fragment
+        android:id="@+id/repairRequestFragment"
+        android:name="com.nammashaaleinventory.ui.repair.RepairRequestFragment"
+        android:label="Repair Requests" />
+
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.nammashaaleinventory.ui.report.ReportFragment"
+        android:label="Summary Report" />
+
+</navigation>

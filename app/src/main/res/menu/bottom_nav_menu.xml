@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/nav_dashboard" />
+    <item
+        android:id="@+id/assetListFragment"
+        android:icon="@drawable/ic_assets"
+        android:title="@string/nav_assets" />
+    <item
+        android:id="@+id/healthCheckFragment"
+        android:icon="@drawable/ic_health"
+        android:title="@string/nav_health" />
+    <item
+        android:id="@+id/issueLogFragment"
+        android:icon="@drawable/ic_issues"
+        android:title="@string/nav_issues" />
+    <item
+        android:id="@+id/repairRequestFragment"
+        android:icon="@drawable/ic_repair"
+        android:title="@string/nav_repair" />
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma-Shaale</string>
+    <string name="app_subtitle">Inventory Manager</string>
+
+    <!-- Nav Labels -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_assets">Assets</string>
+    <string name="nav_health">Health</string>
+    <string name="nav_issues">Issues</string>
+    <string name="nav_repair">Repair</string>
+
+    <!-- Dashboard -->
+    <string name="total_assets">Total Assets</string>
+    <string name="working">Working</string>
+    <string name="needs_repair">Needs Repair</string>
+    <string name="broken">Broken</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="generate_report">Generate Report</string>
+    <string name="monthly_health_check">Monthly Health Check</string>
+    <string name="view_repairs">View Repairs</string>
+
+    <!-- Asset -->
+    <string name="asset_register">Asset Register</string>
+    <string name="add_asset">Add Asset</string>
+    <string name="edit_asset">Edit Asset</string>
+    <string name="asset_name">Item Name</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="category">Category</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="no_assets">No assets yet.\nTap + to add your first asset.</string>
+
+    <!-- Categories -->
+    <string-array name="categories">
+        <item>Sports Equipment</item>
+        <item>Lab Equipment</item>
+        <item>Electronics / Tablets</item>
+        <item>Furniture</item>
+        <item>Library Books</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Health Check -->
+    <string name="health_check_title">Monthly Health Check</string>
+    <string name="condition_working">Working</string>
+    <string name="condition_needs_repair">Needs Repair</string>
+    <string name="condition_broken">Broken</string>
+    <string name="update_condition">Update Condition</string>
+    <string name="health_updated">Health check saved!</string>
+    <string name="batch_update">Batch Update</string>
+
+    <!-- Issue Log -->
+    <string name="issue_log_title">Issue Log</string>
+    <string name="log_issue">Log Issue</string>
+    <string name="issue_description">Issue Description</string>
+    <string name="select_asset">Select Asset</string>
+    <string name="issue_saved">Issue logged successfully.</string>
+    <string name="no_issues">No issues logged yet.</string>
+
+    <!-- Repair -->
+    <string name="repair_requests_title">Repair Requests</string>
+    <string name="mark_resolved">Mark Resolved</string>
+    <string name="pending_repairs">Pending</string>
+    <string name="resolved_repairs">Resolved</string>
+    <string name="no_repairs">No pending repair requests.</string>
+
+    <!-- Report -->
+    <string name="report_title">Summary Report</string>
+    <string name="share_report">Share Report</string>
+    <string name="report_generated">Report ready to share!</string>
+
+    <!-- Messages -->
+    <string name="asset_saved">Asset saved successfully!</string>
+    <string name="asset_deleted">Asset deleted.</string>
+    <string name="confirm_delete">Delete this asset?</string>
+    <string name="confirm_delete_msg">This will permanently remove the asset and all its history.</string>
+    <string name="permission_required">Camera permission is required to take photos.</string>
+</resources>
