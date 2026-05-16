@@ -1,7 +1,6 @@
 # Namma-Shaale Inventory Management System
 
-An offline-first Android app for managing school assets in government-aided primary and secondary schools across Karnataka. Built as a capstone project during the Android Development Internship at MindMatrix, Bangalore (VTU internship codes `21INT82` / `22INT84`).
-
+An offline-first Android app for managing school assets in government-aided primary and secondary schools across Karnataka. Built as a capstone project during the Android Development Internship at MindMatrix
 ---
 
 ## The Problem
