@@ -78,9 +78,4 @@ Open the folder in Android Studio, let Gradle sync, then hit **Run ▶**.
 5. **View repair needs** — The Repair Request tab auto-lists all assets marked Needs Repair or Broken.
 6. **Generate a report** — Go to the Report screen and tap **Share** to send it via WhatsApp, email, etc.
 
----
 
-## Developed By
-
-Department of ISE, TOCE — 2025–26  
-Internship Organisation: [MindMatrix.io](https://lms.mindmatrix.io), HSR Layout, Bangalore
