@@ -1,6 +1,7 @@
 # Namma-Shaale Inventory Management System
 
-An offline-first Android app for managing school assets in government-aided primary and secondary schools across Karnataka. Built as a capstone project during the Android Development Internship at MindMatrix
+An offline-first Android app for managing school assets in government-aided primary and secondary schools across Karnataka. Built as a capstone project during the Android Development Internship at MindMatrix.
+
 ---
 
 ## The Problem
@@ -76,5 +77,3 @@ Open the folder in Android Studio, let Gradle sync, then hit **Run ▶**.
 4. **Log an issue** — Go to Issue Log, tap **+**, select the asset, and describe the problem.
 5. **View repair needs** — The Repair Request tab auto-lists all assets marked Needs Repair or Broken.
 6. **Generate a report** — Go to the Report screen and tap **Share** to send it via WhatsApp, email, etc.
-
-
