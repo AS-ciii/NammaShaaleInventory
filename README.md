@@ -1,4 +1,4 @@
-# Namma-Shaale Inventory Management System
+# Namma-Shaale Inventory 
 
 An offline-first Android app for managing school assets in government-aided primary and secondary schools across Karnataka. Built as a capstone project during the Android Development Internship at MindMatrix.
 
