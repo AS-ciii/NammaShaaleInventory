@@ -6,7 +6,7 @@ An offline-first Android app for managing school assets in government-aided prim
 
 ## The Problem
 
-Government-aided schools in Karnataka manage all their assets: furniture, electronics, equipment — using handwritten paper registers. This leads to:
+Government-aided schools in Karnataka manage all their assets: furniture, electronics, equipment using handwritten paper registers. This leads to:
 
 - Data loss due to damaged or misplaced registers
 - No way to track asset condition over time
